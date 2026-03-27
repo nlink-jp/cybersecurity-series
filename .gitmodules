@@ -1,0 +1,9 @@
+[submodule "ioc-collector"]
+	path = ioc-collector
+	url = https://github.com/nlink-jp/ioc-collector.git
+[submodule "product-research"]
+	path = product-research
+	url = https://github.com/nlink-jp/product-research.git
+[submodule "ai-ir"]
+	path = ai-ir
+	url = https://github.com/nlink-jp/ai-ir.git
