@@ -7,3 +7,6 @@
 [submodule "ai-ir"]
 	path = ai-ir
 	url = https://github.com/nlink-jp/ai-ir.git
+[submodule "news-collector"]
+	path = news-collector
+	url = https://github.com/nlink-jp/news-collector.git

@@ -18,7 +18,8 @@ AI-augmented tools for threat intelligence, product risk assessment, and inciden
 cybersecurity-series/
 ├── ai-ir/            github.com/nlink-jp/ai-ir            (Go — AI incident response analysis)
 ├── ioc-collector/    github.com/nlink-jp/ioc-collector    (Go — IoC extraction + STIX 2.1)
-└── product-research/ github.com/nlink-jp/product-research (Go — product/service risk research)
+├── product-research/ github.com/nlink-jp/product-research (Python — product/service risk research)
+└── news-collector/   github.com/nlink-jp/news-collector   (Python — news collection + tagging agent)
 ```
 
 ## Release checklist
