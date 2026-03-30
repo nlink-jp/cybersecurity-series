@@ -10,3 +10,6 @@
 [submodule "news-collector"]
 	path = news-collector
 	url = https://github.com/nlink-jp/news-collector.git
+[submodule "ir-tracker"]
+	path = ir-tracker
+	url = https://github.com/nlink-jp/ir-tracker.git
