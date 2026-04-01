@@ -13,3 +13,6 @@
 [submodule "ir-tracker"]
 	path = ir-tracker
 	url = https://github.com/nlink-jp/ir-tracker.git
+[submodule "ir-timeline"]
+	path = ir-timeline
+	url = https://github.com/nlink-jp/ir-timeline.git
