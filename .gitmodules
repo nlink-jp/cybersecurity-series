@@ -16,3 +16,6 @@
 [submodule "ir-timeline"]
 	path = ir-timeline
 	url = https://github.com/nlink-jp/ir-timeline.git
+[submodule "ai-ir2"]
+	path = ai-ir2
+	url = https://github.com/nlink-jp/ai-ir2.git
