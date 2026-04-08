@@ -19,3 +19,6 @@
 [submodule "ai-ir2"]
 	path = ai-ir2
 	url = https://github.com/nlink-jp/ai-ir2.git
+[submodule "mail-triage"]
+	path = mail-triage
+	url = https://github.com/nlink-jp/mail-triage.git
