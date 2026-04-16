@@ -25,3 +25,6 @@
 [submodule "cti-primer"]
 	path = cti-primer
 	url = https://github.com/nlink-jp/cti-primer.git
+[submodule "cti-graph"]
+	path = cti-graph
+	url = https://github.com/nlink-jp/cti-graph.git
