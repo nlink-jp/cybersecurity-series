@@ -22,3 +22,6 @@
 [submodule "mail-triage"]
 	path = mail-triage
 	url = https://github.com/nlink-jp/mail-triage.git
+[submodule "cti-primer"]
+	path = cti-primer
+	url = https://github.com/nlink-jp/cti-primer.git
