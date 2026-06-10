@@ -17,10 +17,16 @@ AI-augmented tools for threat intelligence, product risk assessment, and inciden
 ```
 cybersecurity-series/
 ├── ai-ir/            github.com/nlink-jp/ai-ir            (Go — AI incident response analysis)
+├── ai-ir2/           github.com/nlink-jp/ai-ir2           (Python — next-gen one-stop IR analysis)
+├── cti-graph/        github.com/nlink-jp/cti-graph        (Python — local attack graph analysis)
+├── cti-primer/       github.com/nlink-jp/cti-primer       (Python — local-first PIR generation)
 ├── ioc-collector/    github.com/nlink-jp/ioc-collector    (Go — IoC extraction + STIX 2.1)
+├── ir-hub/           github.com/nlink-jp/ir-hub           (Go — IR lifecycle hub Slack bot)
+├── ir-timeline/      github.com/nlink-jp/ir-timeline      (Go — IR timeline recorder)
 ├── ir-tracker/       github.com/nlink-jp/ir-tracker       (Python — live IR tracker + timeline)
-├── product-research/ github.com/nlink-jp/product-research (Python — product/service risk research)
-└── news-collector/   github.com/nlink-jp/news-collector   (Python — news collection + tagging agent)
+├── mail-triage/      github.com/nlink-jp/mail-triage      (Python — GCS email triage via Gemini)
+├── news-collector/   github.com/nlink-jp/news-collector   (Python — news collection + tagging agent)
+└── product-research/ github.com/nlink-jp/product-research (Python — product/service risk research)
 ```
 
 ## Release checklist

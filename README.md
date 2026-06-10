@@ -12,6 +12,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [ioc-collector](https://github.com/nlink-jp/ioc-collector) | Autonomously researches security incidents from URLs, CVE IDs, or natural language — extracts IoCs into Markdown reports and STIX 2.1 bundles |
 | [product-research](https://github.com/nlink-jp/product-research) | Researches products and services on the web — outputs ToS, privacy, and data security analysis as structured reports |
 | [ai-ir](https://github.com/nlink-jp/ai-ir) | AI-powered incident response analysis — analyzes Slack IR conversation exports to generate summaries, activity reports, role inference, and reusable investigation tactics |
+| [ir-hub](https://github.com/nlink-jp/ir-hub) | IR lifecycle hub — resident Slack ChatOps bot that opens a channel per case, tracks the response with ACL-gated commands, and ingests messages for postmortems and knowledge reuse (Go) |
 | [ir-timeline](https://github.com/nlink-jp/ir-timeline) | IR timeline recorder — single-binary, browser-based tool for tracking IR events with text, images, tags, and time deltas (Go) |
 | [ir-tracker](https://github.com/nlink-jp/ir-tracker) | Live IR tracker — continuous ingestion, segmented analysis, and timeline visualization for ongoing incidents via Gemini |
 | [news-collector](https://github.com/nlink-jp/news-collector) | News collection agent — collects, tags, summarizes, translates, and delivers curated news digests via Gemini + Slack integration |
@@ -31,7 +32,7 @@ Most tools are Python projects managed with [uv](https://docs.astral.sh/uv/):
 uv sync && uv run <tool-entrypoint> [args]
 ```
 
-Go tools (ir-timeline) build as single binaries:
+Go tools (ir-hub, ir-timeline) build as single binaries:
 
 ```sh
 make build   # → dist/<tool-name>
