@@ -28,3 +28,6 @@
 [submodule "cti-graph"]
 	path = cti-graph
 	url = https://github.com/nlink-jp/cti-graph.git
+[submodule "ir-hub"]
+	path = ir-hub
+	url = https://github.com/nlink-jp/ir-hub.git
