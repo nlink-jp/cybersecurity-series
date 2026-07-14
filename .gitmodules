@@ -31,3 +31,6 @@
 [submodule "ir-hub"]
 	path = ir-hub
 	url = https://github.com/nlink-jp/ir-hub.git
+[submodule "abuse-lookup"]
+	path = abuse-lookup
+	url = https://github.com/nlink-jp/abuse-lookup.git
