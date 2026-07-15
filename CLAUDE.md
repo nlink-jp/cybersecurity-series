@@ -27,7 +27,8 @@ cybersecurity-series/
 ├── ir-tracker/       github.com/nlink-jp/ir-tracker       (Python — live IR tracker + timeline)
 ├── mail-triage/      github.com/nlink-jp/mail-triage      (Python — GCS email triage via Gemini)
 ├── news-collector/   github.com/nlink-jp/news-collector   (Python — news collection + tagging agent)
-└── product-research/ github.com/nlink-jp/product-research (Python — product/service risk research)
+├── product-research/ github.com/nlink-jp/product-research (Python — product/service risk research)
+└── tor-exit-lookup/  github.com/nlink-jp/tor-exit-lookup  (Go — Tor Exit node lookup CLI + MCP)
 ```
 
 ## Release checklist

@@ -34,3 +34,6 @@
 [submodule "abuse-lookup"]
 	path = abuse-lookup
 	url = https://github.com/nlink-jp/abuse-lookup.git
+[submodule "tor-exit-lookup"]
+	path = tor-exit-lookup
+	url = https://github.com/nlink-jp/tor-exit-lookup.git
