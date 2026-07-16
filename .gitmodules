@@ -37,3 +37,6 @@
 [submodule "tor-exit-lookup"]
 	path = tor-exit-lookup
 	url = https://github.com/nlink-jp/tor-exit-lookup.git
+[submodule "icloud-relay-lookup"]
+	path = icloud-relay-lookup
+	url = https://github.com/nlink-jp/icloud-relay-lookup.git
