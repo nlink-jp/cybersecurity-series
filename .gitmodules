@@ -40,3 +40,6 @@
 [submodule "icloud-relay-lookup"]
 	path = icloud-relay-lookup
 	url = https://github.com/nlink-jp/icloud-relay-lookup.git
+[submodule "whois-lookup"]
+	path = whois-lookup
+	url = https://github.com/nlink-jp/whois-lookup.git
