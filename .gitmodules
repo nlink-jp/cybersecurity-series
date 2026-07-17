@@ -43,3 +43,6 @@
 [submodule "whois-lookup"]
 	path = whois-lookup
 	url = https://github.com/nlink-jp/whois-lookup.git
+[submodule "doh-lookup"]
+	path = doh-lookup
+	url = https://github.com/nlink-jp/doh-lookup.git

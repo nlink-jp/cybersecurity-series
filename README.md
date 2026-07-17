@@ -10,6 +10,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | Tool | Description |
 |------|-------------|
 | [abuse-lookup](https://github.com/nlink-jp/abuse-lookup) | Checks IP address reputation against the AbuseIPDB API — CLI + local MCP server with a TTL cache; the online, reputation-focused sibling of asn-lookup (Go) |
+| [doh-lookup](https://github.com/nlink-jp/doh-lookup) | Collects a domain's DNS records over DoH (Cloudflare/Google) — queries out-of-band over HTTPS so investigative lookups stay distinguishable from ordinary DNS; forward profile + PTR reverse, states the resolver/endpoint and DNSSEC AD in every result; CLI + local MCP server, no credentials (Go) |
 | [icloud-relay-lookup](https://github.com/nlink-jp/icloud-relay-lookup) | Reports whether an IP is an Apple iCloud Private Relay egress IP — offline lookup from a cached copy of Apple's egress-ip-ranges.csv, with geo hints; CLI + local MCP server, no credentials (Go) |
 | [tor-exit-lookup](https://github.com/nlink-jp/tor-exit-lookup) | Reports whether an IP is a Tor Exit node — offline lookup from a cached copy of the Tor Project's torbulkexitlist; CLI + local MCP server, no credentials (Go) |
 | [whois-lookup](https://github.com/nlink-jp/whois-lookup) | Looks up the registration data of a domain, IP, or AS number — RDAP-first with port 43 WHOIS fallback and in-house IDN punycode; CLI + local MCP server, no credentials (Go) |
