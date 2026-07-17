@@ -46,3 +46,6 @@
 [submodule "doh-lookup"]
 	path = doh-lookup
 	url = https://github.com/nlink-jp/doh-lookup.git
+[submodule "urlscan-lookup"]
+	path = urlscan-lookup
+	url = https://github.com/nlink-jp/urlscan-lookup.git
