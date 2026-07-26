@@ -52,3 +52,6 @@
 [submodule "mac-lookup"]
 	path = mac-lookup
 	url = https://github.com/nlink-jp/mac-lookup.git
+[submodule "pcap-analyzer-mcp"]
+	path = pcap-analyzer-mcp
+	url = https://github.com/nlink-jp/pcap-analyzer-mcp.git
