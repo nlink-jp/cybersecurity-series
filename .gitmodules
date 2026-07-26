@@ -49,3 +49,6 @@
 [submodule "urlscan-lookup"]
 	path = urlscan-lookup
 	url = https://github.com/nlink-jp/urlscan-lookup.git
+[submodule "mac-lookup"]
+	path = mac-lookup
+	url = https://github.com/nlink-jp/mac-lookup.git
