@@ -58,3 +58,6 @@
 [submodule "rdns-lookup"]
 	path = rdns-lookup
 	url = https://github.com/nlink-jp/rdns-lookup.git
+[submodule "malware-lookup"]
+	path = malware-lookup
+	url = https://github.com/nlink-jp/malware-lookup.git
