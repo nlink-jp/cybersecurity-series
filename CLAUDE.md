@@ -27,7 +27,7 @@ cybersecurity-series/
 ├── ioc-collector/    github.com/nlink-jp/ioc-collector    (Go — IoC extraction + STIX 2.1)
 ├── ir-hub/           github.com/nlink-jp/ir-hub           (Go — IR lifecycle hub Slack bot)
 ├── ir-timeline/      github.com/nlink-jp/ir-timeline      (Go — IR timeline recorder)
-├── ir-tracker/       github.com/nlink-jp/ir-tracker       (Python — live IR tracker + timeline)
+├── ir-tracker/       github.com/nlink-jp/ir-tracker       (Python — live IR tracker + timeline; archived)
 ├── mac-lookup/       github.com/nlink-jp/mac-lookup       (Go — MAC/BSSID vendor + address-type lookup CLI + MCP)
 ├── mail-triage/      github.com/nlink-jp/mail-triage      (Python — GCS email triage via Gemini; archived)
 ├── malware-lookup/   github.com/nlink-jp/malware-lookup   (Go — file-hash malware/known-good verdict CLI + MCP)
