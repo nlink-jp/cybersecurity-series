@@ -9,6 +9,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 
 | Tool | Description |
 |------|-------------|
+| [asn-lookup](https://github.com/nlink-jp/asn-lookup) | Looks up IP↔AS relationships from a local IPinfo Lite database — IP → ASN/org/country and ASN → prefixes, fully offline after a one-time free DB download; CLI + local MCP server (Go) |
 | [abuse-lookup](https://github.com/nlink-jp/abuse-lookup) | Checks IP address reputation against the AbuseIPDB API — CLI + local MCP server with a TTL cache; the online, reputation-focused sibling of asn-lookup (Go) |
 | [doh-lookup](https://github.com/nlink-jp/doh-lookup) | Collects a domain's DNS records over DoH (Cloudflare/Google) — queries out-of-band over HTTPS so investigative lookups stay distinguishable from ordinary DNS; forward profile + PTR reverse, states the resolver/endpoint and DNSSEC AD in every result; CLI + local MCP server, no credentials (Go) |
 | [icloud-relay-lookup](https://github.com/nlink-jp/icloud-relay-lookup) | Reports whether an IP is an Apple iCloud Private Relay egress IP — offline lookup from a cached copy of Apple's egress-ip-ranges.csv, with geo hints; CLI + local MCP server, no credentials (Go) |
@@ -33,7 +34,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 
 ## Design Philosophy
 
-- **AI-augmented**: Tools use LLMs (Gemini, Claude, OpenAI-compatible endpoints) as the intelligence layer for research and analysis tasks.
+- **Right-sized intelligence**: Analysis tools use LLMs (Gemini, Claude, OpenAI-compatible endpoints) as their intelligence layer; lookup tools stay deterministic and offline-first, serving as the evidence layer beneath them (many double as local MCP servers for agents).
 - **Structured output**: All tools produce machine-readable JSON alongside human-readable Markdown — suitable for downstream automation.
 - **Security-first**: IoC defanging, prompt injection defense, and no-exfiltration-by-default are built-in design constraints.
 - **Pipe-friendly**: Tools read from files or stdin and write to files or stdout; composable with `jq` and each other.

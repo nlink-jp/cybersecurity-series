@@ -12,13 +12,14 @@
 
 ## This series
 
-AI-augmented tools for threat intelligence, product risk assessment, and incident response.
+Tools for security investigation, threat intelligence, and incident response — offline-first lookup CLIs + MCP servers alongside AI-assisted analysis tools.
 
 ```
 cybersecurity-series/
 ├── abuse-lookup/     github.com/nlink-jp/abuse-lookup     (Go — AbuseIPDB IP reputation CLI + MCP)
 ├── ai-ir/            github.com/nlink-jp/ai-ir            (Python — AI incident response analysis; archived, superseded by the incident-review skill)
 ├── ai-ir2/           github.com/nlink-jp/ai-ir2           (Python — next-gen one-stop IR analysis; archived, superseded by the incident-review skill)
+├── asn-lookup/       github.com/nlink-jp/asn-lookup       (Go — local IP↔AS lookup CLI + MCP, IPinfo Lite DB)
 ├── cti-graph/        github.com/nlink-jp/cti-graph        (Python — local attack graph analysis; archived)
 ├── cti-primer/       github.com/nlink-jp/cti-primer       (Python — local-first PIR generation; archived)
 ├── doh-lookup/       github.com/nlink-jp/doh-lookup       (Go — DoH DNS-record lookup CLI + MCP)

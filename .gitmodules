@@ -61,3 +61,6 @@
 [submodule "malware-lookup"]
 	path = malware-lookup
 	url = https://github.com/nlink-jp/malware-lookup.git
+[submodule "asn-lookup"]
+	path = asn-lookup
+	url = https://github.com/nlink-jp/asn-lookup.git
