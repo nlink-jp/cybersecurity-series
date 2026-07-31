@@ -28,7 +28,7 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [ir-timeline](https://github.com/nlink-jp/ir-timeline) | IR timeline recorder — single-binary, browser-based tool for tracking IR events with text, images, tags, and time deltas (Go) |
 | [ir-tracker](https://github.com/nlink-jp/ir-tracker) | Live IR tracker — continuous ingestion, segmented analysis, and timeline visualization for ongoing incidents via Gemini |
 | [mac-lookup](https://github.com/nlink-jp/mac-lookup) | MAC address / BSSID lookup — resolves the manufacturer from a locally cached copy of the IEEE registries, and classifies the address itself (randomized, multicast, subdivided OUI) so a locally administered address is never mistaken for an unidentified device |
-| [mail-triage](https://github.com/nlink-jp/mail-triage) | GCS-based email triage — classifies `.eml`/`.msg` files with Gemini and posts results to Slack; runs as a Cloud Run Job |
+| [mail-triage](https://github.com/nlink-jp/mail-triage) | **(archived)** GCS-based email triage — classifies `.eml`/`.msg` files with Gemini and posts results to Slack; runs as a Cloud Run Job |
 | [news-collector](https://github.com/nlink-jp/news-collector) | News collection agent — collects, tags, summarizes, translates, and delivers curated news digests via Gemini + Slack integration |
 
 ## Design Philosophy

@@ -28,7 +28,7 @@ cybersecurity-series/
 ├── ir-timeline/      github.com/nlink-jp/ir-timeline      (Go — IR timeline recorder)
 ├── ir-tracker/       github.com/nlink-jp/ir-tracker       (Python — live IR tracker + timeline)
 ├── mac-lookup/       github.com/nlink-jp/mac-lookup       (Go — MAC/BSSID vendor + address-type lookup CLI + MCP)
-├── mail-triage/      github.com/nlink-jp/mail-triage      (Python — GCS email triage via Gemini)
+├── mail-triage/      github.com/nlink-jp/mail-triage      (Python — GCS email triage via Gemini; archived)
 ├── malware-lookup/   github.com/nlink-jp/malware-lookup   (Go — file-hash malware/known-good verdict CLI + MCP)
 ├── news-collector/   github.com/nlink-jp/news-collector   (Python — news collection + tagging agent)
 ├── product-research/ github.com/nlink-jp/product-research (Python — product/service risk research)
