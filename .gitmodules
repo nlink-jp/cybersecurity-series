@@ -64,3 +64,6 @@
 [submodule "asn-lookup"]
 	path = asn-lookup
 	url = https://github.com/nlink-jp/asn-lookup.git
+[submodule "otx-lookup"]
+	path = otx-lookup
+	url = https://github.com/nlink-jp/otx-lookup.git

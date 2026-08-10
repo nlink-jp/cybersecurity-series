@@ -32,6 +32,7 @@ cybersecurity-series/
 ├── mail-triage/      github.com/nlink-jp/mail-triage      (Python — GCS email triage via Gemini; archived)
 ├── malware-lookup/   github.com/nlink-jp/malware-lookup   (Go — file-hash malware/known-good verdict CLI + MCP)
 ├── news-collector/   github.com/nlink-jp/news-collector   (Python — news collection + tagging agent)
+├── otx-lookup/       github.com/nlink-jp/otx-lookup       (Go — OTX pulse campaign-context lookup + pivot CLI + MCP)
 ├── product-research/ github.com/nlink-jp/product-research (Python — product/service risk research; archived, superseded by the service-research skill)
 ├── rdns-lookup/      github.com/nlink-jp/rdns-lookup      (Go — IP→domains / subdomain / reverse-CNAME lookup CLI + MCP)
 ├── tor-exit-lookup/  github.com/nlink-jp/tor-exit-lookup  (Go — Tor Exit node lookup CLI + MCP)
