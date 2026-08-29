@@ -25,7 +25,7 @@ cybersecurity-series/
 ├── doh-lookup/       github.com/nlink-jp/doh-lookup       (Go — DoH DNS-record lookup CLI + MCP)
 ├── icloud-relay-lookup/ github.com/nlink-jp/icloud-relay-lookup (Go — iCloud Private Relay egress IP lookup CLI + MCP)
 ├── ioc-collector/    github.com/nlink-jp/ioc-collector    (Python — IoC extraction + STIX 2.1; archived, superseded by the incident-research skill v0.2+)
-├── ir-hub/           github.com/nlink-jp/ir-hub           (Go — IR lifecycle hub Slack bot)
+├── ir-hub/           github.com/nlink-jp/ir-hub           (Go — IR lifecycle hub Slack bot; archived)
 ├── ir-timeline/      github.com/nlink-jp/ir-timeline      (Go — IR timeline recorder)
 ├── ir-tracker/       github.com/nlink-jp/ir-tracker       (Python — live IR tracker + timeline; archived)
 ├── mac-lookup/       github.com/nlink-jp/mac-lookup       (Go — MAC/BSSID vendor + address-type lookup CLI + MCP)
