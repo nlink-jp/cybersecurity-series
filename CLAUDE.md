@@ -23,6 +23,7 @@ cybersecurity-series/
 ├── cti-graph/        github.com/nlink-jp/cti-graph        (Python — local attack graph analysis; archived)
 ├── cti-primer/       github.com/nlink-jp/cti-primer       (Python — local-first PIR generation; archived)
 ├── doh-lookup/       github.com/nlink-jp/doh-lookup       (Go — DoH DNS-record lookup CLI + MCP)
+├── gti-lookup/       github.com/nlink-jp/gti-lookup       (Go — Google Threat Intelligence context CLI + MCP; Standard tier, commercial licence required)
 ├── icloud-relay-lookup/ github.com/nlink-jp/icloud-relay-lookup (Go — iCloud Private Relay egress IP lookup CLI + MCP)
 ├── ioc-collector/    github.com/nlink-jp/ioc-collector    (Python — IoC extraction + STIX 2.1; archived, superseded by the incident-research skill v0.2+)
 ├── ir-hub/           github.com/nlink-jp/ir-hub           (Go — IR lifecycle hub Slack bot; archived)

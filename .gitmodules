@@ -67,3 +67,6 @@
 [submodule "otx-lookup"]
 	path = otx-lookup
 	url = https://github.com/nlink-jp/otx-lookup.git
+[submodule "gti-lookup"]
+	path = gti-lookup
+	url = https://github.com/nlink-jp/gti-lookup.git
