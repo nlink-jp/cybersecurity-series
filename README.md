@@ -21,18 +21,13 @@ This umbrella repository tracks them together as git submodules and hosts shared
 | [rdns-lookup](https://github.com/nlink-jp/rdns-lookup) | Looks up the relationships around an IP or domain in the free ip.thc.org index — rDNS aggregates, subdomains, and CNAME sources; reads only a third-party index so no packet reaches the target; CLI + local MCP server, no credentials (Go) |
 | [otx-lookup](https://github.com/nlink-jp/otx-lookup) | Attaches campaign context to an indicator from the community reports ("pulses") of the LevelBlue Open Threat Exchange — adversary, malware family, ATT&CK techniques, targeted industries and countries, and the pivot to the other indicators a pulse carries; reads only a third-party index so no packet reaches the target; API key optional; CLI + local MCP server (Go) |
 | [pcap-analyzer-mcp](https://github.com/nlink-jp/pcap-analyzer-mcp) | Analyses pcap/pcapng captures for an LLM agent (MCP) — digest-pinned tshark in a rootless, network-less container with the capture mounted read-only; small results inline, large ones as JSONL/CSV in the workspace (Go) |
-| [ioc-collector](https://github.com/nlink-jp/ioc-collector) | **(archived)** Autonomously researches security incidents from URLs, CVE IDs, or natural language — extracts IoCs into Markdown reports and STIX 2.1 bundles; superseded by the [incident-research](https://github.com/nlink-jp/incident-research) skill (v0.2+) |
-| [product-research](https://github.com/nlink-jp/product-research) | **(archived)** Researches products and services on the web — ToS, privacy, and data security analysis as structured reports; superseded by the [service-research](https://github.com/nlink-jp/service-research) skill |
-| [cti-graph](https://github.com/nlink-jp/cti-graph) | **(archived)** Local-first threat intelligence attack graph analysis platform — SAGE-inspired, backed by local SQLite |
-| [cti-primer](https://github.com/nlink-jp/cti-primer) | **(archived)** Generates CTI PIRs (Priority Intelligence Requirements) from business context — BEACON-inspired, runs on local LLMs or dictionary-only mode, no cloud services required |
-| [ai-ir](https://github.com/nlink-jp/ai-ir) | **(archived)** AI-powered incident response analysis — analyzes Slack IR conversation exports to generate summaries, activity reports, role inference, and reusable investigation tactics; superseded by the [incident-review](https://github.com/nlink-jp/incident-review) skill |
-| [ai-ir2](https://github.com/nlink-jp/ai-ir2) | **(archived)** Next-generation AI-powered IR analysis — one-stop Gemini pipeline that turns a Slack IR export into a comprehensive analysis report in a single command; superseded by the [incident-review](https://github.com/nlink-jp/incident-review) skill |
-| [ir-hub](https://github.com/nlink-jp/ir-hub) | **(archived)** IR lifecycle hub — resident Slack ChatOps bot that opens a channel per case, tracks the response with ACL-gated commands, and ingests messages for postmortems and knowledge reuse (Go) |
 | [ir-timeline](https://github.com/nlink-jp/ir-timeline) | IR timeline recorder — single-binary, browser-based tool for tracking IR events with text, images, tags, and time deltas (Go) |
-| [ir-tracker](https://github.com/nlink-jp/ir-tracker) | **(archived)** Live IR tracker — continuous ingestion, segmented analysis, and timeline visualization for ongoing incidents via Gemini |
 | [mac-lookup](https://github.com/nlink-jp/mac-lookup) | MAC address / BSSID lookup — resolves the manufacturer from a locally cached copy of the IEEE registries, and classifies the address itself (randomized, multicast, subdivided OUI) so a locally administered address is never mistaken for an unidentified device |
-| [mail-triage](https://github.com/nlink-jp/mail-triage) | **(archived)** GCS-based email triage — classifies `.eml`/`.msg` files with Gemini and posts results to Slack; runs as a Cloud Run Job |
 | [news-collector](https://github.com/nlink-jp/news-collector) | News collection agent — collects, tags, summarizes, translates, and delivers curated news digests via Gemini + Slack integration |
+
+> **Archived projects moved:** projects archived out of this series now live
+> in [archive-series](https://github.com/nlink-jp/archive-series) under `cybersecurity/`.
+> They are read-only — don't add rows for them back here.
 
 ## Design Philosophy
 

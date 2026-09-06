@@ -1,36 +1,9 @@
-[submodule "ioc-collector"]
-	path = ioc-collector
-	url = https://github.com/nlink-jp/ioc-collector.git
-[submodule "product-research"]
-	path = product-research
-	url = https://github.com/nlink-jp/product-research.git
-[submodule "ai-ir"]
-	path = ai-ir
-	url = https://github.com/nlink-jp/ai-ir.git
 [submodule "news-collector"]
 	path = news-collector
 	url = https://github.com/nlink-jp/news-collector.git
-[submodule "ir-tracker"]
-	path = ir-tracker
-	url = https://github.com/nlink-jp/ir-tracker.git
 [submodule "ir-timeline"]
 	path = ir-timeline
 	url = https://github.com/nlink-jp/ir-timeline.git
-[submodule "ai-ir2"]
-	path = ai-ir2
-	url = https://github.com/nlink-jp/ai-ir2.git
-[submodule "mail-triage"]
-	path = mail-triage
-	url = https://github.com/nlink-jp/mail-triage.git
-[submodule "cti-primer"]
-	path = cti-primer
-	url = https://github.com/nlink-jp/cti-primer.git
-[submodule "cti-graph"]
-	path = cti-graph
-	url = https://github.com/nlink-jp/cti-graph.git
-[submodule "ir-hub"]
-	path = ir-hub
-	url = https://github.com/nlink-jp/ir-hub.git
 [submodule "abuse-lookup"]
 	path = abuse-lookup
 	url = https://github.com/nlink-jp/abuse-lookup.git
