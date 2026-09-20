@@ -43,3 +43,6 @@
 [submodule "gti-lookup"]
 	path = gti-lookup
 	url = https://github.com/nlink-jp/gti-lookup.git
+[submodule "cve-lookup"]
+	path = cve-lookup
+	url = https://github.com/nlink-jp/cve-lookup.git

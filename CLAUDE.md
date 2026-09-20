@@ -18,6 +18,7 @@ Tools for security investigation, threat intelligence, and incident response —
 cybersecurity-series/
 ├── abuse-lookup/     github.com/nlink-jp/abuse-lookup     (Go — AbuseIPDB IP reputation CLI + MCP)
 ├── asn-lookup/       github.com/nlink-jp/asn-lookup       (Go — local IP↔AS lookup CLI + MCP, IPinfo Lite DB)
+├── cve-lookup/       github.com/nlink-jp/cve-lookup       (Go — CVE context CLI + MCP from the EchelonGraph public API: CVSS / KEV / EPSS / SSVC / exposure; no key)
 ├── doh-lookup/       github.com/nlink-jp/doh-lookup       (Go — DoH DNS-record lookup CLI + MCP)
 ├── gti-lookup/       github.com/nlink-jp/gti-lookup       (Go — Google Threat Intelligence context CLI + MCP; Standard tier, commercial licence required)
 ├── icloud-relay-lookup/ github.com/nlink-jp/icloud-relay-lookup (Go — iCloud Private Relay egress IP lookup CLI + MCP)
