@@ -14,23 +14,15 @@
 
 Tools for security investigation, threat intelligence, and incident response — offline-first lookup CLIs + MCP servers alongside AI-assisted analysis tools.
 
-```
-cybersecurity-series/
-├── abuse-lookup/     github.com/nlink-jp/abuse-lookup     (Go — AbuseIPDB IP reputation CLI + MCP)
-├── asn-lookup/       github.com/nlink-jp/asn-lookup       (Go — local IP↔AS lookup CLI + MCP, IPinfo Lite DB)
-├── cve-lookup/       github.com/nlink-jp/cve-lookup       (Go — CVE context CLI + MCP from the EchelonGraph public API: CVSS / KEV / EPSS / SSVC / exposure; no key)
-├── doh-lookup/       github.com/nlink-jp/doh-lookup       (Go — DoH DNS-record lookup CLI + MCP)
-├── gti-lookup/       github.com/nlink-jp/gti-lookup       (Go — Google Threat Intelligence context CLI + MCP; Standard tier, commercial licence required)
-├── icloud-relay-lookup/ github.com/nlink-jp/icloud-relay-lookup (Go — iCloud Private Relay egress IP lookup CLI + MCP)
-├── ir-timeline/      github.com/nlink-jp/ir-timeline      (Go — IR timeline recorder)
-├── mac-lookup/       github.com/nlink-jp/mac-lookup       (Go — MAC/BSSID vendor + address-type lookup CLI + MCP)
-├── malware-lookup/   github.com/nlink-jp/malware-lookup   (Go — file-hash malware/known-good verdict CLI + MCP)
-├── news-collector/   github.com/nlink-jp/news-collector   (Python — news collection + tagging agent)
-├── otx-lookup/       github.com/nlink-jp/otx-lookup       (Go — OTX pulse campaign-context lookup + pivot CLI + MCP)
-├── rdns-lookup/      github.com/nlink-jp/rdns-lookup      (Go — IP→domains / subdomain / reverse-CNAME lookup CLI + MCP)
-├── tor-exit-lookup/  github.com/nlink-jp/tor-exit-lookup  (Go — Tor Exit node lookup CLI + MCP)
-└── whois-lookup/     github.com/nlink-jp/whois-lookup     (Go — domain/IP/ASN registration data CLI + MCP)
-```
+The catalog — one row per submodule — is [README.md](README.md) (ADR-005);
+do not duplicate it here. A second list is a list that drifts: `check-org.sh`
+holds the README to the submodules and nothing held this file, which had
+fallen behind by the time anyone compared them.
+
+Per-tool build quirks:
+
+- **Python/uv (no make):** news-collector
+- **Needs a container runtime image (Podman) at run time:** pcap-analyzer-mcp
 
 ## Release checklist
 
