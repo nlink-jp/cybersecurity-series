@@ -46,3 +46,6 @@
 [submodule "cve-lookup"]
 	path = cve-lookup
 	url = https://github.com/nlink-jp/cve-lookup.git
+[submodule "shodan-lookup"]
+	path = shodan-lookup
+	url = https://github.com/nlink-jp/shodan-lookup.git
