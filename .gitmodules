@@ -49,3 +49,6 @@
 [submodule "shodan-lookup"]
 	path = shodan-lookup
 	url = https://github.com/nlink-jp/shodan-lookup.git
+[submodule "opencti-lookup"]
+	path = opencti-lookup
+	url = https://github.com/nlink-jp/opencti-lookup.git
