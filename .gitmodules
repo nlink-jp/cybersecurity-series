@@ -55,3 +55,6 @@
 [submodule "vpn-lookup"]
 	path = vpn-lookup
 	url = https://github.com/nlink-jp/vpn-lookup.git
+[submodule "cert-lookup"]
+	path = cert-lookup
+	url = https://github.com/nlink-jp/cert-lookup.git
