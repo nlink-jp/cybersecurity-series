@@ -52,3 +52,6 @@
 [submodule "opencti-lookup"]
 	path = opencti-lookup
 	url = https://github.com/nlink-jp/opencti-lookup.git
+[submodule "vpn-lookup"]
+	path = vpn-lookup
+	url = https://github.com/nlink-jp/vpn-lookup.git
