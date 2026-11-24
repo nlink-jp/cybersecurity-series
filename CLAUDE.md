@@ -21,7 +21,7 @@ fallen behind by the time anyone compared them.
 
 Per-tool build quirks:
 
-- **Python/uv (no make):** news-collector
+- **Python/uv (make for test / vuln, no build; release has no assets):** news-collector
 - **Needs a container runtime image (Podman) at run time:** pcap-analyzer-mcp
 
 ## Release checklist
